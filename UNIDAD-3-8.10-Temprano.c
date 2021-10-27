@@ -101,13 +101,13 @@ int main() {
 				sumt = ht / temprano;
 	sum2t = mt / temprano;
 	}
-else if(tarde>0){
+ if(tarde>0){
 	porta = (tarde * 100)/lim;
 
 	sumta = hta / tarde;
 	sum2ta = mta / tarde;
 }
-	else if(ausente>=1){
+ if(ausente>0){
 			pornp = (ausente * 100)/lim;
 	}
 
